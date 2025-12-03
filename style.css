@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #f4f4f9, #e0f7fa);
-  color: #333;
+  color: #ffffff;
 }
 
 /* Header styling */
 header {
-  background: linear-gradient(90deg, #4CAF50, #2E7D32);
-  color: white;
+  background: linear-gradient(90deg, #1f2b91, #33c9ce);
+  color: rgb(255, 255, 255);
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFD700;
+  color: #101391;
 }
 
 /* Main content */
@@ -54,7 +54,7 @@ main {
 }
 
 section {
-  background: white;
+  background: linear-gradient(90deg, #1f2b91, #33c9ce);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.1);
@@ -64,29 +64,28 @@ section {
 }
 
 section h2 {
-  color: #4CAF50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 button {
-  padding: 12px 25px;
-  background: #4CAF50;
+  padding: 12px 40px;
+  background: #4c63af;
   color: white;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 70px;
   font-size: 1rem;
-  transition: transform 0.2s ease, background 0.3s ease;
+  transition: transform 0.2s ease,  1.6s ease;
 }
 
 button:hover {
-  background: #45a049;
-  transform: scale(1.1);
+  background: #5a1cbd;
+  transform: scale(3.1);
 }
 
 /* Footer */
 footer {
-  background: #333;
+  background: linear-gradient(90deg, #1f2b91, #33c9ce);
   color: white;
   text-align: center;
   padding: 1rem;
