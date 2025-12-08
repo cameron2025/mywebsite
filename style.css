@@ -12,12 +12,12 @@ body {
 /* Header styling */
 header h1 {
   background: linear-gradient(90deg, #1f2b91, #33c9ce);
-  color: #fff;
+  color: #ffffff;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 2.5rem;
   animation: fadeInDown 1.5s ease;
 }
@@ -143,6 +143,16 @@ footer {
   margin-top: 3rem;
 }
 
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+
+
+
 /* Animations */
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-30px); }
@@ -153,3 +163,4 @@ footer {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
