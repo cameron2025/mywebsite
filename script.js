@@ -1,3 +1,4 @@
-document.getElementById("clickMeg").addEventListener("click", function() {
-    alert("Background changed! 🎨");
+document.getElementById("button1").addEventListener("click", function() {
+    alert("Button Clicked!");
 });
+
