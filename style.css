@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f4f4f9, #e0f7fa);
+  background: rgb(180, 139, 247);
   color: #ffffff; /* darker text for readability */
 }
 
@@ -17,16 +17,16 @@ header h1 {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2.5rem;
   animation: fadeInDown 1.5s ease;
 }
 
 /* Navigation */
 nav ul {
-  list-style: square
-  ;
+  list-style: square;
   padding: 1rem; /* fixed unit */
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   text-align: center;
   background: linear-gradient(90deg, #911f75, #33c9ce);
 }
@@ -40,6 +40,7 @@ nav ul li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   transition: color 0.3s ease;
 }
 
@@ -49,6 +50,14 @@ nav ul li a:hover {
 
 /* Main content */
 main {
+  padding: 3rem;
+  
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+main h1 {
   padding: 3rem;
   text-align: center;
 }
@@ -64,21 +73,23 @@ section {
 }
 
 
-
-
-section h2 {
-  color: #ffffff;
+section h1 {
+  color: linear-gradient(90deg,rgb(255, 0, 0)1, #ffffff);
   margin-bottom: 1rem;
 }
 
 
 /* Buttons */
 button {
-  padding: 12px 60px;
-  background: #4c63af;
+  padding: 5px 60px;
+  background: #00720f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
   color: white;
-  border: none;
-  border-radius: 20px;
+  border: salmon;
+  border-radius: 10px;
   font-size: 1rem;
   transition: transform 0.2s ease background-color 1.6s ease;
   cursor: pointer;
@@ -108,3 +119,4 @@ footer {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
