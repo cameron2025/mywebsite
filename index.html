@@ -62,23 +62,6 @@ setInterval(updateCountdown, 1000);
 </script>
 
 
-<main>
-  <h2>Protected Page</h2>
-  <div id="protected" style="display:none;">
-    <p>🎄 Welcome to the secret Christmas content!</p>
-  </div>
-</main>
-
-<script>
-const password = "Cameron2026!"; // change this
-
-const userInput = prompt("Enter password:");
-if (userInput === password) {
-  document.getElementById("protected").style.display = "block";
-} else {
-  document.body.innerHTML = "<h2>Access denied ❌</h2>";
-}
-</script>
 
 
   <footer>
@@ -88,3 +71,4 @@ if (userInput === password) {
   <script src="script.js"></script>
 </body>
 </html>
+
